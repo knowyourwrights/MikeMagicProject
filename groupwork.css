@@ -1,0 +1,50 @@
+body {
+background: #1b1b1b;
+color: #e0e0e0;
+font-family: "Georgia", serif;
+text-align: center;
+padding-top: 50px;
+}
+
+.book {
+width: 350px;
+margin: auto;
+
+}
+
+.cover {
+background: #1b1b1b;
+padding: 40px;
+font-size: 28px;
+border: 2px solid #3a3a3a;
+border-radius: 5px;
+text-shadow: 0 0 10px #f31010;
+transition: transform 1s;
+}
+
+.pages {
+display: none;
+background: #b6acac;
+color: #fff;
+padding: 25px;
+margin-top: 10px;
+border-radius: 4px;
+border: 1px solid #d1c1c1;
+}
+
+.book.open .cover {
+transform: rotateY(360deg);
+}
+
+.book.open .pages {
+display: inline-block;
+}
+
+.spell-text {
+font-size: 16px;
+line-height: 1.5;
+opacity: 0;
+margin-top: 20px;
+color: darkred;
+}
+

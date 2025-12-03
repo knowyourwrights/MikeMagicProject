@@ -2,7 +2,8 @@
     display: flex;
 
 }
-button{
+
+#buy{
 
     height: 50px;
     width: 100px;
@@ -10,3 +11,4 @@ button{
     right: 50px;
     top: 500px;
 }
+

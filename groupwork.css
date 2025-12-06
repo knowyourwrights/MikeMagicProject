@@ -1,50 +1,65 @@
 body {
-background: #1b1b1b;
-color: #e0e0e0;
-font-family: "Georgia", serif;
+font-family: 'Calibri';
+background: black;
+color: #07e4e8;
+}
+
+
+header {
 text-align: center;
-padding-top: 50px;
+padding: 30px 0;
+background: darkred;
 }
 
-.book {
-width: 350px;
-margin: auto;
 
-}
-
-.cover {
-background: #1b1b1b;
+.gallery {
+display: flex;
+justify-content: center;
+gap: 40px;
 padding: 40px;
-font-size: 28px;
-border: 2px solid #3a3a3a;
-border-radius: 5px;
-text-shadow: 0 0 10px #f31010;
-transition: transform 1s;
 }
 
-.pages {
-display: none;
-background: #b6acac;
-color: #fff;
-padding: 25px;
-margin-top: 10px;
-border-radius: 4px;
-border: 1px solid #d1c1c1;
+
+.spell-card {
+background: #2b2119;
+border: 2px solid red;
+border-radius: 10px;
+padding: 15px;
+width: 220px;
+text-align: center;
+cursor: pointer;
+
 }
 
-.book.open .cover {
-transform: rotateY(360deg);
+
+.spell-card:hover {
+transform: scale(1.05);
 }
 
-.book.open .pages {
-display: inline-block;
+
+.spell-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+border-radius: 8px;
 }
 
-.spell-text {
-font-size: 16px;
-line-height: 1.5;
-opacity: 0;
+
+.spell-page {
+padding: 40px;
+}
+
+
+.spell-page h2 {
+font-size:large;
+margin-bottom: 20px;
+}
+
+
+.ingredients, .instructions {
+background: #2b2119;
+border: 2px solid #6b5237;
+padding: 20px;
 margin-top: 20px;
-color: darkred;
+border-radius: 10px;
 }
-

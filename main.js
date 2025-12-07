@@ -13,6 +13,14 @@ function purchase(){
     
 }
 
+function reset1(){
+document.getElementById("purchase_").style.display="none";
+}
+
+document.getElementById("moreInfo").addEventListener("click",wand);
+
+
+
 
 
 function reset(){

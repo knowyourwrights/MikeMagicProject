@@ -15,6 +15,7 @@ function purchase(){
 
 function reset(){
 document.getElementById("purchase3").style.display="none";
+document.getElementById("purchase2").style.display="none";
 
 }
 
@@ -30,13 +31,14 @@ function purchase3(){
     
 }
 
-document.getElementById("moreInfo").addEventListener("click",Cloak);
+
+document.getElementById("moreInfo2").addEventListener("click",Cloak);
 
 function Cloak(){
     window.open("page3.html","_blank");
 }
 
-document.getElementById("buy").addEventListener("click",purchase2);
+document.getElementById("buy2").addEventListener("click",purchase2);
 
 function purchase2(){
     document.getElementById("purchase2").style.display="flex";

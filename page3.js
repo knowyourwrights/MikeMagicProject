@@ -1,4 +1,4 @@
-function rotateItems(choice)
+/* function rotateItems(choice)
 {
     if (choice == 'left')
     {
@@ -8,4 +8,11 @@ function rotateItems(choice)
     {
         console.log("right button pressed");
     }
+} */
+
+document.getElementById("userWarning").style.display="none";
+
+function reveal()
+{
+    document.getElementById("userWarning").style.display="block";
 }

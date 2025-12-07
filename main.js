@@ -13,10 +13,9 @@ function purchase(){
     
 }
 
-
-
 function reset(){
 document.getElementById("purchase3").style.display="none";
+
 }
 
 document.getElementById("moreInfo3").addEventListener("click",alex);
@@ -29,4 +28,16 @@ document.getElementById("buy3").addEventListener("click",purchase3);
 function purchase3(){
     document.getElementById("purchase3").style.display="flex"; 
     
+}
+
+document.getElementById("moreInfo").addEventListener("click",Cloak);
+
+function Cloak(){
+    window.open("page3.html","_blank");
+}
+
+document.getElementById("buy").addEventListener("click",purchase2);
+
+function purchase2(){
+    document.getElementById("purchase2").style.display="flex";
 }

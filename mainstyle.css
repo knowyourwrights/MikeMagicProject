@@ -4,6 +4,12 @@
    
 }
 
+body {
+    background-image: url('starrybackground2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 ul {
   list-style-type: none;
   margin: 0;

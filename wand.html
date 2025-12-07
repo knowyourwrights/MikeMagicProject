@@ -4,18 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic Wand</title>
-    <link rel="stylesheet" href="wand.css">
+    <link id="style" rel="stylesheet" href="wand.css">
 </head>
 <body>
-<div id="container">
+    <div id="container2">
+        <h1 >the extraordinary magical  wand</h1>
 
-    <img id="image" src="wand/wand1.png" width="500" alt="wand">
+        <button onclick="changeStyle()" id="styleChange"> night mode &#9790</button>
+    </div>
+    
+<div id="container">
+    <button onclick="previousImage()" id="backwards">&#8592;</button>
+
+    <img id="image" src="wand/wand1.png" width="500" height="500" alt="wand">
         
-        <button id="buy">buy now</button> 
         <button onclick="nextImage()" id="forward">&#8594;</button>
-        <button onclick="previousImage()" id="backwards">&#8592;</button>
+        
+</div>
+
+    <h1 style="text-align: center;" >product specs</h1>
+
+    <table style="width:60%"  border="15" align="center" bordercolor="black"  cellpadding="20" cellspacing="3" width="30">
+            <tr>
+                <th> length </th>
+                <td>20 CM</td>
+            </tr>
+
+            <tr>
+                <th>diameter</th>
+                <td> 5 CM</td>
+                
+                
+            </tr>
+
+            <tr>
+                <th>weight</th>
+                <td> 8 KG</td>
+            </tr>
+     </table>
+
+<h1 style="text-align: center; padding-top: 20px;">Wand overview</h1>
+
+<div id="container3">
+
+<img src="wand/volcano.png" width="700" alt="volcano">
+
+<p id="container3Text">Forged inside the  <b>magma chamber</b> of an <em>active</em>  volcano </p>
+        
+
 
 </div>
+
+<div id="container3">
+
+<img src="wand/blacksmith.jpg" width="700" alt="volcano">
+
+<p id="container3Text">Forged by a <b>master</b> blacksmith, holder of <u>ancient techniques</u>. Creator of only
+perfection.  </p>
+        
+
+
+</div>
+
+<div id="container3">
+
+<img src="wand/ore.png" width="700" alt="volcano">
+
+<p id="container3Text">Forged out of a <b>rare</b> ore found in a deep cave guarded by a  <u>fierce</u>
+     dragon.
+</p>
+        
+
+
+</div>
+
+<h1 style="text-align: center;">Check if you are capable of using this wand !!!</h1>
+
+
+        
+    
+        <div id="magicLevelCheckerContainer">
+            <input type="text" id="magicLevel" placeholder=" ENTER YOUR MAGIC LEVEL"/>
+            <input type="button" value="Check" id="magicCheckerButton" onclick="levelChecker()">
+        </div>
+            
+        
+        
+
+
+    
+
+    
+
+    <p id="forbid">Sorry, you are FAR too weak</p>
+    <p id="limit">You may be able to use this wand but only <b>low tier spells</b> </p>
+    <p id="full"> You are strong enough to use this wand to its full potential </p>
+
+
+
+
 <script src="wand.js"></script>
 </body>
 </html>

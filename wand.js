@@ -67,3 +67,48 @@ function previousImage() {
     
     console.log(counter);
 }
+
+
+document.getElementById("full").style.display="none";
+document.getElementById("limit").style.display="none";
+document.getElementById("forbid").style.display="none";
+
+
+
+function levelChecker(){
+    var level=document.getElementById("magicLevel").value;
+    if (level>=100){
+        document.getElementById("full").style.display="block";           
+        document.getElementById("full").style.backgroundColor="green";  
+
+       document.getElementById("limit").style.display="none";
+    document.getElementById("forbid").style.display="none";   
+    }
+
+    else if (level<100 && level>=75)
+    {
+        document.getElementById("limit").style.display="block";
+        document.getElementById("limit").style.backgroundColor="orange";
+
+        document.getElementById("full").style.display="none";
+        document.getElementById("forbid").style.display="none";
+    }
+
+    else
+    {
+        document.getElementById("forbid").style.display="block";
+        document.getElementById("forbid").style.backgroundColor="red";
+
+        document.getElementById("limit").style.display="none";
+        document.getElementById("full").style.display="none";
+    }
+}
+
+function changeStyle(){
+//document.getElementById("style").href="wand2.css";
+
+document.querySelectorAll("link").href.toggle("wand2.css")
+
+//document.querySelectorAll("wand.css").href.toggle("wand2.css")
+}
+

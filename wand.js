@@ -105,10 +105,12 @@ function levelChecker(){
 }
 
 function changeStyle(){
-//document.getElementById("style").href="wand2.css";
+document.getElementById("style").href="wand2.css";
 
-document.querySelectorAll("link").href.toggle("wand2.css")
+}
 
-//document.querySelectorAll("wand.css").href.toggle("wand2.css")
+function changeStyle2(){
+document.getElementById("style").href="wand.css";
+
 }
 

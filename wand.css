@@ -48,7 +48,7 @@
     background-color: #e5e9f0;
 }
 
-#styleChange{
+#styleChange, #styleChange2{
     margin-right: 10px;
     width: fit-content;
     height: fit-content;
@@ -60,8 +60,9 @@
 
 body{
     margin: 0%;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     background-color: #d8dee9;
+    
 }
 
 #container3Text{

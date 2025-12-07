@@ -16,5 +16,17 @@ function purchase(){
 
 
 function reset(){
-document.getElementById("purchase_").style.display="none";
+document.getElementById("purchase3").style.display="none";
+}
+
+document.getElementById("moreInfo3").addEventListener("click",alex);
+
+function alex(){
+    window.open("groupwork.html","_blank");
+}
+document.getElementById("buy3").addEventListener("click",purchase3);
+
+function purchase3(){
+    document.getElementById("purchase3").style.display="flex"; 
+    
 }

@@ -13,3 +13,7 @@ p {
 img{
     align-self: center;
 }
+
+#item{
+    flex-direction:row;
+}

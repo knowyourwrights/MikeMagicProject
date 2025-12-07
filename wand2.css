@@ -17,7 +17,7 @@
 #container3 {
     display: flex;
     justify-self: center;
-    background-color: #e5e9f0;
+    background-color: #3b4252;
     column-gap: 20px;
     width: 100%;
     margin-bottom: 20px;
@@ -30,7 +30,7 @@
     align-self: center;
     border-radius: 20px;
     border-style: none;
-    background-color: #eceff4;
+    background-color: #4c566a;
 
 }
 
@@ -45,7 +45,7 @@
 }
 
 #forward:hover,#backwards:hover,#magicCheckerButton:hover,#styleChange:hover{
-    background-color: #e5e9f0;
+    background-color: #434c5e;
 }
 
 #styleChange{
@@ -54,14 +54,15 @@
     height: fit-content;
     margin-top: 15px;
     font-size: 30px;
-    background-color: #eceff4;
+    background-color: #4c566a;
     border-style: none;
 }
 
 body{
     margin: 0%;
     margin-bottom: 50px;
-    background-color: #d8dee9;
+    background-color: #2e3440;
+    color: #e5e9f0;
 }
 
 #container3Text{
@@ -102,14 +103,14 @@ font-size: 40px;
 #magicCheckerButton{
     width: 200px;
     margin-left: 20px;
-    background-color: #eceff4;
+    background-color: #4c566a;
     border-style: none;
 
 }
 
 table{
     width: 60%;
-    border-color:#4c566a;
+    border-color:#d8dee9;
     border: 15;
     align:center;
 }

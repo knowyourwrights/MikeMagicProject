@@ -54,12 +54,10 @@ button{
 
 }
 
-#buy{
+#buy,#buy2,#buy3{
     margin-left: 180px;
 }
-#buy3{
-    margin-left: 180px;
-}
+
 
 #moreInfo{
 margin-left: 2px;
@@ -71,11 +69,11 @@ p {
 
 }
 
-#wand, #Spellbook , #wand3{
+#wand, #Spellbook , #Cloak{
     margin-bottom: 50px;
 }
 
-#purchase_{
+#purchase_,#purchase2{
     display: none;
     justify-self: center;
     font-size: 20px;
@@ -94,6 +92,7 @@ p {
     display: flex;
     column-gap: 30px;
     justify-content: center;
+    margin-bottom: 300px;
 }
 
 #testimonials{

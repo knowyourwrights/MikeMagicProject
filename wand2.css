@@ -114,5 +114,5 @@ table{
     width: 60%;
     border-color:#d8dee9;
     border: 15;
-    align:center;
+    box-align:center;
 }

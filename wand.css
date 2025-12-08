@@ -112,5 +112,5 @@ table{
     width: 60%;
     border-color:#4c566a;
     border: 15;
-    align:center;
+    box-align:center;
 }

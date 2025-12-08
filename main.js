@@ -25,6 +25,7 @@ document.getElementById("moreInfo").addEventListener("click",wand);
 
 function reset(){
 document.getElementById("purchase3").style.display="none";
+
 }
 
 document.getElementById("moreInfo3").addEventListener("click",alex);
@@ -37,4 +38,20 @@ document.getElementById("buy3").addEventListener("click",purchase3);
 function purchase3(){
     document.getElementById("purchase3").style.display="flex"; 
     
+}
+
+document.getElementById("moreInfo2").addEventListener("click",Cloak);
+
+function Cloak(){
+    window.open("page3.html","_blank");
+}
+
+document.getElementById("buy2").addEventListener("click",purchase2);
+
+function purchase2(){
+    document.getElementById("purchase2").style.display="flex";
+}
+
+function reset3(){
+document.getElementById("purchase2").style.display="none";
 }

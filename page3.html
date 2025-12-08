@@ -8,19 +8,41 @@
     <link rel="stylesheet" href="page3.css">
 </head>
 <body>
-    <p style="font-size: 50px;">thingy (title)</p>
+    <p style="font-size: 50px;">Cloak of Infinity</p>
 <!-- i changed the item to be like.. those big black n red cape things,
  DO NOT TOUCH THESE, it's all temporary (images will be different im just missing some rn)-->
-    <p>the thingamajiggy</p>
-<div id="item">
-    <button class="turnbutton">⇐</button>
-    <img src="starrybackground2.png" width="500px">
-    <img src="starrybackground2.png" width="500px">
-    <img src="starrybackground2.png" width="500px">
-    <button class="turnbutton">⇒</button>
+    <p>An innocuous and inconspicuous cloth, yet one overflowing with power—awaiting one capable of harnessing it.</p>
+    <br>
+<div id="items">
+    <!-- <button onclick="rotateItems('left')" class="turnbutton">⇐</button> -->
+    <div id="capeimg1">
+        <img id="page3ImageOne" src="cloakimages/cloak1.png" width="300px" height="350px">
+        <p><u>Front.</u></p>
+    </div>
+    <div id="capeimg2">
+        <img id="page3ImageTwo" src="cloakimages/cloak3.png" width="300px" height="350px">
+        <p><u>Back.</u></p>
+    </div>
+    <div id="capeimg3">
+        <img id="page3ImageThree" src="cloakimages/cloak4.png" width="300px" height="350px">
+        <p><u>+ Accessible wand pocket.</u></p>
+    </div>
+    <!-- <button onclick="rotateItems('right')" class="turnbutton">⇒</button> -->
 </div>
+    <div id="description">
+        <p style="font-size:65px"><i><u>Specifications</i></u></p>
+        <ul>
+            <li>Woven and sewn by a seamstress high in the mountains.</li>
+            <li>Grants wearer the ability to become invisible or teleport at will. 
+                <div id="warningClick" onclick="reveal()" style="color:rgb(80, 204, 208)"><b>[CLICK TO SEE MORE BELOW.]</b></div></li>
+            <li>May enhance pre-existing or previously practiced sorcery if used correctly.</li>
+        </ul>
+        <hr>
+    </div>
 
-    <p>BLARHRAAGHGHH DESCRIPTION</p>
+    <p id="userWarning" style="font-size:smaller; color:rgb(80, 204, 208)"><i>* mR mAJic is not held responsible for accidental teleportation to perilous
+        locations. Wearer discretion is advised.</i></p>
 
+    <script src="page3.js"></script>
 </body>
 </html>

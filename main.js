@@ -42,6 +42,11 @@ function purchase3(){
 
 document.getElementById("moreInfo2").addEventListener("click",Cloak);
 
+
+
+
+
+
 function Cloak(){
     window.open("page3.html","_blank");
 }

@@ -15,7 +15,6 @@ function purchase(){
 
 function reset(){
 document.getElementById("purchase3").style.display="none";
-document.getElementById("purchase2").style.display="none";
 
 }
 
@@ -37,6 +36,7 @@ document.getElementById("moreInfo2").addEventListener("click",Cloak);
 function Cloak(){
     window.open("page3.html","_blank");
 }
+document.getElementById("purchase2").style.display="none";
 
 document.getElementById("buy2").addEventListener("click",purchase2);
 
